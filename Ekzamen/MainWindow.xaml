@@ -1,0 +1,17 @@
+﻿<Window x:Class="Ekzamen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ekzamen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Список задач" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24" Background="White" Width="158" Margin="10,0,0,0"/>
+        <Button x:Name="Vxod" Content="Входящие" HorizontalAlignment="Left" Margin="0,42,0,0" VerticalAlignment="Top" Width="189" Height="45" Click="Vxod_Click"/>
+        <Button x:Name="Now" Content="Сегодня" HorizontalAlignment="Left" Margin="0,92,0,0" VerticalAlignment="Top" Width="189" Height="45" Click="Now_Click"/>
+        <Button x:Name="NowFuture" Content="Предстоящие" HorizontalAlignment="Left" Margin="0,142,0,0" VerticalAlignment="Top" Width="189" Height="45" Click="NowFuture_Click"/>
+        <Frame x:Name="MainFrame" Content="" HorizontalAlignment="Left" Height="399" VerticalAlignment="Top" Width="560" Margin="222,10,0,0"/>
+
+    </Grid>
+</Window>
